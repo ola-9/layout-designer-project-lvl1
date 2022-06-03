@@ -42,8 +42,8 @@ body {
 .heading-desc {
   color: var(--dark);
   font-size: 34px;
-  line-height: 1.2;
   font-family: "Neucha Regular", cursive;
+  line-height: 1.2;
 }
 
 .header-image {
@@ -69,6 +69,7 @@ body {
 
 .nav {
   gap: 30px;
+  padding-top: 0;
 }
 
 
