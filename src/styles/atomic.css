@@ -85,10 +85,6 @@
   margin-bottom: 60px;
 }
 
-.mb-90 {
-  margin-bottom: 90px;
-}
-
 .mb-100 {
   margin-bottom: 100px;
 }
@@ -99,6 +95,10 @@
 
 .pt-200 {
   padding-top: 200px;
+}
+
+.pl-30 {
+  padding-left: 30px;
 }
 
 .shadow {
