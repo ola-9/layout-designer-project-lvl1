@@ -34,13 +34,13 @@ body {
 
 
 .heading-small {
-  color: var(--dark-semitransparent);
+  /* color: var(--dark-semitransparent); */
   font-size: 24px;
   font-family: "Neucha Regular", cursive;
 }
 
 .heading-desc {
-  color: var(--dark);
+  /* color: var(--dark); */
   font-size: 34px;
   font-family: "Neucha Regular", cursive;
   line-height: 1.2;

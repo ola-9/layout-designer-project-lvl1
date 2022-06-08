@@ -22,6 +22,18 @@
   color: var(--white);
 }
 
+.dark-semi-color {
+  color: var(--dark-semitransparent);
+}
+
+.dark-color {
+  color: var(--dark);
+}
+
+.brown-color {
+  color: var(--brown);
+}
+
 .z-index-1 {
   z-index: 1;
 }
@@ -43,6 +55,10 @@
 
 .bg-brown {
   background-color: var(--brown);
+}
+
+.bg-white {
+  background-color: var(--white);
 }
 
 .position-relative {

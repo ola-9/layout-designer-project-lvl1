@@ -37,6 +37,7 @@ h1 {
 }
 
 h2 {
+  color: var(--main-orange);
   font-size: 60px;
 }
 
