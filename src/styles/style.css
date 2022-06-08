@@ -126,3 +126,41 @@ body {
 
   text-transform: uppercase;
 }
+
+.subscribe {
+  padding: 40px 55px;
+}
+
+.subscribe-form__label {
+  display: inline-block;
+  margin-bottom: 9px;
+
+  font-size: 18px;
+}
+
+.subscribe-form__input {
+  height: 50px;
+  width: calc(100% - 75px);
+  padding: 15px;
+
+  border: none;
+}
+
+.subscribe-form__rules {
+  font-size: 12px;
+}
+
+.subscribe-form__rules-link {
+  text-decoration: underline;
+
+  cursor: pointer;
+}
+
+.info-block__item {
+  margin-bottom: 16px;
+}
+
+.info-block__link {
+  color: var(--blue);
+  text-decoration: underline;
+}

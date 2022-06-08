@@ -229,24 +229,31 @@
           </p>
         </div>
       </div>
-
     </section>
   </main>
   <footer>
-    <div>
-      <p>
-        Хотите узнать больше? Подпишитесь на обновления
-      </p>
-      <form>
-        <label for="email">Электронная почта</label>
-        <input id="email" type="email" placeholder="Ваша электронная почта">
-        <button>Отправить</button>
-        <p>Подписываясь, вы принимаете <a href="#">правила сервиса</a></p>
-      </form>
+    <div class="container">
+      <div class="d-flex justify-between split-columns-2 mb-60 bg-dark white-color subscribe">
+        <h3>Хотите узнать больше?<br>Подпишитесь на обновления</h3>
+        <form class="subscribe-form">
+          <label for="email" class="subscribe-form__label">Электронная почта</label>
+          <div class="d-flex">
+            <input class="subscribe-form__input" id="email" type="email" placeholder="Ваша электронная почта">
+            <button class="btn-subscribe"><span hidden>Отправить</span></button>
+          </div>
+          <p class="subscribe-form__rules">Подписываясь, вы принимаете <a class="subscribe-form__rules-link"
+              href="#">правила сервиса</a></p>
+        </form>
+      </div>
+      <div class="text-center info-block">
+        <p class="info-block__item">© 2022 Olga Pj</p>
+        <p class="info-block__item">По материалам статьи
+          <a class="info-block__link" href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b">
+            Yash Ranadive Cognitive Biases in Programming</a></p>
+        <p class="info-block__item"><a class="info-block__link" href="https://hexlet.io">Курсы программирования Hexlet</a></p>
+      </div>
+
     </div>
-    <p>© 2020 Константин Константинопольский</p>
-    <p>По материалам статьи <a>Yash Ranadive Cognitive Biases in Programming</a></p>
-    <a>Курсы программирования Hexlet</a>
   </footer>
 </body>
 
