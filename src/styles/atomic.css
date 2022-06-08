@@ -101,6 +101,10 @@
   padding-left: 30px;
 }
 
+.pr-30 {
+  padding-right: 30px;
+}
+
 .shadow {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
