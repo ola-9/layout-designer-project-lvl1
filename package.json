@@ -1,19 +1,20 @@
 {
-  "name": "layout-designer-project-lvl1",
-  "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/ola-9/layout-designer-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/ola-9/layout-designer-project-lvl1/actions)",
-  "main": "",
+  "name": "html5-css-boilerplate",
+  "version": "0.1.0",
+  "description": "HTML5/CSS Boilerplate with HTMLHint and StyleLint",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ola-9/layout-designer-project-lvl1.git"
+    "url": "https://github.com/hexlet-boilerplates/html-boilerplate.git"
   },
-  "author": "",
-  "license": "ISC",
+  "main": "",
   "devDependencies": {
     "htmlhint": "^1.1.4",
-    "stylelint": "^14.8.5",
-    "stylelint-config-rational-order": "^0.1.2",
-    "stylelint-config-standard": "^25.0.0",
-    "stylelint-order": "^5.0.0"
-  }
+    "stylelint": "^15.2.0",
+    "stylelint-config-standard": "^30.0.1",
+    "stylelint-config-standard-scss": "^7.0.1",
+    "stylelint-scss": "^4.4.0",
+    "surge": "^0.23.1"
+  },
+  "author": "Nikita Mikhaylov",
+  "license": "ISC"
 }
